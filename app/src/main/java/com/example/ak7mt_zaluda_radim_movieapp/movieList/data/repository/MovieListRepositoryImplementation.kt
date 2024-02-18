@@ -1,6 +1,6 @@
 package com.example.ak7mt_zaluda_radim_movieapp.movieList.data.repository
 
-import com.ahmedapps.moviesapp.movieList.util.Resource
+import com.example.ak7mt_zaluda_radim_movieapp.movieList.util.Resource
 import com.example.ak7mt_zaluda_radim_movieapp.movieList.data.local.movie.MovieDatabase
 import com.example.ak7mt_zaluda_radim_movieapp.movieList.data.mappers.toMovie
 import com.example.ak7mt_zaluda_radim_movieapp.movieList.data.mappers.toMovieEntity

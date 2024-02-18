@@ -1,6 +1,6 @@
 package com.example.ak7mt_zaluda_radim_movieapp.movieList.domain.model.repository
 
-import com.ahmedapps.moviesapp.movieList.util.Resource
+import com.example.ak7mt_zaluda_radim_movieapp.movieList.util.Resource
 import com.example.ak7mt_zaluda_radim_movieapp.movieList.domain.model.Movie
 import kotlinx.coroutines.flow.Flow
 

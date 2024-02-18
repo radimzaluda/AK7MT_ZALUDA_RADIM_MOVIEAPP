@@ -1,4 +1,4 @@
-package com.ahmedapps.moviesapp.movieList.util
+package com.example.ak7mt_zaluda_radim_movieapp.movieList.util
 
 import android.graphics.Bitmap
 import androidx.compose.runtime.Composable

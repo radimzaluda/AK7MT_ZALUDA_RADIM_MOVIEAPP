@@ -16,14 +16,14 @@
         android:theme="@style/Theme.AK7MT_ZALUDA_RADIM_MOVIEAPP"
         tools:targetApi="31">
         <activity
-            android:name=".SplashScreen"
+            android:name=".core.SplashScreen"
             android:exported="true">
 
 
         </activity>
 
         <activity
-            android:name=".MainActivity"
+            android:name=".core.MainActivity"
             android:exported="true">
 
             <intent-filter>

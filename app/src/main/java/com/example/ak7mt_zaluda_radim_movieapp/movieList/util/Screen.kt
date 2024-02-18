@@ -1,8 +1,6 @@
-package com.ahmedapps.moviesapp.movieList.util
+package com.example.ak7mt_zaluda_radim_movieapp.movieList.util
 
-/**
- * @author Android Devs Academy (Ahmed Guedmioui)
- */
+
 sealed class Screen(val rout: String) {
     object Home : Screen("main")
     object PopularMovieList : Screen("popularMovie")
