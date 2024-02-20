@@ -24,11 +24,9 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.vector.ImageVector
-import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
-import androidx.navigation.NavController
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
@@ -36,6 +34,7 @@ import androidx.navigation.compose.rememberNavController
 import com.example.ak7mt_zaluda_radim_movieapp.movieList.util.Screen
 import com.example.ak7mt_zaluda_radim_movieapp.movieList.views.MovieListUiEvent
 import com.example.ak7mt_zaluda_radim_movieapp.movieList.views.MovieListViewModel
+import com.example.ak7mt_zaluda_radim_movieapp.movieList.views.PopularMoviesScreen
 
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -84,13 +83,13 @@ fun HomeScreen(navController: NavHostController) {
                         onEvent = movieListViewModel::onEvent
                     )
                 }
-                composable(Screen.UpcomingMovieList.rout) {
-                    UpcomingMoviesScreen(
-                        navController = navController,
-                        movieListState = movieState,
-                        onEvent = movieListViewModel::onEvent
-                    )
-                }
+//                composable(Screen.UpcomingMovieList.rout) {
+//                    UpcomingMoviesScreen(
+//                        navController = navController,
+//                        movieListState = movieState,
+//                        onEvent = movieListViewModel::onEvent
+//                    )
+//                }
             }
         }
     }
